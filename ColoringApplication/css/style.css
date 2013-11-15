@@ -1,0 +1,1 @@
+.canvas {	position: absolute; 	left: 0; 	top: 0;}#temporary {	z-index: 0;}#figure {	z-index: 1;}#background {	z-index: 2;}

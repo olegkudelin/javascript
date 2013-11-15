@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html onload=PAINT.Paint.initialize()>
+    <head>
+            <meta charset="utf-8">
+            <title>Расскраска</title>
+            <script src="js/paint.js"></script>
+            <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    </head>
+    <body onload="PAINT.Paint.initialize()">
+            <div style="position: relative;">
+                  <canvas class="canvas" id="temporary" width=1024 height=720></canvas>
+                  <canvas class="canvas" id="figure" width=1024 height=720></canvas>
+                  <canvas class="canvas" id="background" width=1024 height=720>У Вас отсутствует возможность рисования</canvas> <!--Растровый холст для рисование, id="figure" - обязателно-->
+            </div>
+            <div id="log"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div> <!--Сюда выводятся сообщения программы, может отсутствовать-->
+    </body>
+</html>
